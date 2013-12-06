@@ -8,7 +8,10 @@
             "email": "ben@benallfree.com"
         }
     ],
-    "require": {
+    "autoload": {
+         "psr-0": {"Metabolic\\": "src/"}
+     },
+     "require": {
 
     }
 }
