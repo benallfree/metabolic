@@ -12,6 +12,7 @@
          "psr-0": {"Metabolic\\": "src/"}
      },
      "require": {
+       "doctrine/inflector":"*"
 
     }
 }
