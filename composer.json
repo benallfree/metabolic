@@ -1,0 +1,14 @@
+{
+    "name": "benallfree/metabolic",
+    "description": "ORM for WordPress",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Allfree",
+            "email": "ben@benallfree.com"
+        }
+    ],
+    "require": {
+
+    }
+}
