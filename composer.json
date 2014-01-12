@@ -3,16 +3,15 @@
     "description": "ORM for WordPress",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Ben Allfree",
-            "email": "ben@benallfree.com"
-        }
+      {
+        "name": "Ben Allfree",
+        "email": "ben@benallfree.com"
+      }
     ],
     "autoload": {
-         "psr-0": {"Metabolic\\": "src/"}
-     },
-     "require": {
-       "doctrine/inflector":"*"
-
+      "psr-0": {"Metabolic\\": "src/"}
+    },
+    "require": {
+      "doctrine/inflector":"*"
     }
 }
