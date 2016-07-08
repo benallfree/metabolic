@@ -7,7 +7,11 @@ inheritance, compex data types, and GUI controls.
 
 Metabolic is designed to be included *inside* your plugin:
 
-    composer install benallfree/metabolic
+    composer require benallfree/metabolic
+
+or, for the latest,
+
+    composer require benallfree/metabolic dev-master
 
 ## Quickstart
 
@@ -44,7 +48,7 @@ That's a little better. Now we can do this:
 
 Pretty cool. But still not great, where's the validation?
 
-    class Order extends PostRecordBase
+    class Order extends Metabolic\Base
     {
       static function fields()
       {
@@ -189,13 +193,13 @@ Migrating is easy:
 
 It's easy to find a single record by post ID.
 
-    $order = Order::get(42);
+    $order = Order::find(42);
 
 It's easy to find a single record by post object.
 
-    $order = Order::get($my_post_obj);
+    $order = Order::find($my_post_obj);
 
-It's easy to find a single record.
+It's easy to find a single record by meta value.
 
     $order = Order::find( array(
       'customer_id'=>42,
